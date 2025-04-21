@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="./assets/style/all.min.css" />
     <!-- VENOBOX PLUGIN -->
     <link rel="stylesheet" href="./assets/style/venobox.min.css" />
+    <!-- AOS ANIMATION -->
+     <link rel="stylesheet" href="./assets/style/aos.css">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./assets/style/style.css" />
     <!-- RESPONSIVE CSS -->
@@ -418,7 +420,7 @@
             <div class="slide">
               <div class="row align-items-center gx-4">
                 <div class="col-lg-7">
-                  <div class="bannerImg">
+                  <div class="bannerImg" data-aos="fade-right" data-aos-duration="1000">
                     <img
                       class="img-fluid"
                       src="./assets/images/bannerImg.png"
@@ -429,12 +431,12 @@
 
                 <div class="col-lg-5">
                   <div class="bannerCnt">
-                    <p>Welcome to shopery</p>
-                    <h2>Fresh & Healthy Organic Food</h2>
-                    <h5>
+                    <p data-aos="fade-up" data-aos-delay="300">Welcome to shopery</p>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Fresh & Healthy Organic Food</h2>
+                    <h5 data-aos="fade-up" data-aos-delay="500">
                       Free shipping on all your order. we deliver, you enjoy
                     </h5>
-                    <a href="#"
+                    <a data-aos="fade-up" data-aos-delay="600" href="#"
                       >Shop now &nbsp;<span
                         ><i class="fa-solid fa-arrow-right"></i></span
                     ></a>
@@ -549,16 +551,16 @@
         <div class="container">
           <h2>Introducing Our Products</h2>
           <ul class="productNav d-flex justify-content-center">
-            <li class="active"><a href="#">All</a></li>
-            <li><a href="#">Vegetable</a></li>
-            <li><a href="#">Fruit</a></li>
-            <li><a href="#">Meat & Fish</a></li>
-            <li><a href="#">View All</a></li>
+            <li class="active all" data-filter="all"><button>All</button></li>
+            <li class="vegetable" data-filter=".veg"><button>Vegetable</button></li>
+            <li class="fruit" data-filter=".fruit"><button>Fruit</button></li>
+            <li class=""><button>Meat & Fish</button></li>
+            <li class=""><button>View All</button></li>
           </ul>
 
-          <div class="row mt-3 mt-md-4 mt-lg-5">
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+          <div class="row mt-3 mt-md-4 mt-lg-5 filterProduct">
+            <div class="mix fruit col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -589,8 +591,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix fruit col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -621,8 +623,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix veg col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -653,8 +655,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix veg col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -685,8 +687,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix veg col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -717,8 +719,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix veg col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -749,8 +751,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix veg col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -781,8 +783,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 p-0">
-              <div class="product">
+            <div class="mix veg col-lg-3 col-md-4 col-6 p-0">
+              <div class="product" data-aos="zoom-in">
                 <div class="productImg">
                   <a href="#"
                     ><img
@@ -823,7 +825,7 @@
         <div class="container">
           <div class="row gy-4">
             <div class="col-lg-4">
-              <div class="promoCard">
+              <div class="promoCard" data-aos="fade-right">
                 <div class="col-8 col-sm-6">
                   <h2>100% Fresh Cow Milk</h2>
                   <span class="price">Starting at <strong>$14.99</strong></span>
@@ -836,7 +838,7 @@
             </div>
 
             <div class="col-lg-4">
-              <div class="promoCardDrink">
+              <div class="promoCardDrink" data-aos="fade-up" data-aos-delay="300">
                 <div class="row">
                   <div class="col-6"></div>
                   <div class="col-6">
@@ -852,7 +854,7 @@
             </div>
 
             <div class="col-lg-4">
-              <div class="promoCardBreakfast">
+              <div class="promoCardBreakfast" data-aos="fade-left">
                 <div class="col-8 col-sm-6">
                   <p>100% Organic</p>
                   <h3>Quick Breakfast</h3>
@@ -1178,7 +1180,7 @@
         <div class="container">
           <h2>What our Clients Says</h2>
           <div class="feedbackSlider">
-            <div class="feedback text-center">
+            <div data-aos="zoom-out" class="feedback text-center">
               <div class="content">
                 <img
                   src="./assets/images/doubleQuotation.png"
@@ -1202,7 +1204,7 @@
               </div>
             </div>
 
-            <div class="feedback text-center">
+            <div data-aos="zoom-out" data-aos-delay="" class="feedback text-center">
               <div class="content">
                 <img
                   src="./assets/images/doubleQuotation.png"
@@ -1226,7 +1228,7 @@
               </div>
             </div>
 
-            <div class="feedback text-center">
+            <div data-aos="zoom-out" data-aos-delay="" class="feedback text-center">
               <div class="content">
                 <img
                   src="./assets/images/doubleQuotation.png"
@@ -1276,7 +1278,7 @@
           </div>
 
           <!-- VIDEO PART -->
-          <div class="video text-center">
+          <div class="video text-center" data-aos="flip-down">
             <p>vidoe</p>
             <h4 class="col-8 col-md-4 mx-auto">
               We’re the Best Organic Farm in the World
@@ -1301,7 +1303,7 @@
 
           <div class="row">
             <div class="col-md-6 g-md-3 g-lg-4 col-lg-4">
-              <div class="news">
+              <div class="news" data-aos="zoom-in-right">
                 <div class="img">
                   <img
                     class="img-fluid"
@@ -1326,7 +1328,7 @@
               </div>
             </div>
             <div class="col-md-6 g-md-3 g-lg-4 col-lg-4">
-              <div class="news">
+              <div class="news" data-aos="zoom-in-up">
                 <div class="img">
                   <img
                     class="img-fluid"
@@ -1351,7 +1353,7 @@
               </div>
             </div>
             <div class="col-md-6 g-md-3 g-lg-4 col-lg-4">
-              <div class="news">
+              <div class="news" data-aos="zoom-in-left">
                 <div class="img">
                   <img
                     class="img-fluid"
@@ -1494,10 +1496,14 @@
     <script src="./assets/js/font-awsome.js"></script>
     <!-- FINAL COUNTDOWN -->
     <script src="./assets/js/jquery.countdown.min.js"></script>
+    <!-- AOS ANIMATION -->
+     <script src="./assets/js/aos.js"></script>
     <!-- ICONIFY ICON -->
     <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
     <!-- SLICK -->
     <script src="./assets/js/slick.min.js"></script>
+    <!-- MIX IT UP -->
+     <script src="./assets/js/mixitup.min.js"></script>
     <!-- VENOBOX -->
     <script src="./assets/js/venobox.min.js"></script>
     <!-- BOOTSTRAP 5 -->

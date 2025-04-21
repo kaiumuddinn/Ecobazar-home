@@ -487,18 +487,20 @@ header .navbarSm .menu .search form button {
   position: relative;
   margin: 0 24px;
 }
-#ourProducts .productNav li a {
+#ourProducts .productNav li button {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: var(--gray-scale-gray-–-500);
+  border: none;
+  outline: none;
 }
 #ourProducts .productNav li.active {
   box-shadow: 0 2px 0 0 #20b526;
   padding: 0px 12px 8px 12px;
   background-color: var(--green-gray-scale-50);
 }
-#ourProducts .productNav li a::before {
+#ourProducts .productNav li button::before {
   content: "";
   position: absolute;
   width: 1px;
@@ -508,7 +510,7 @@ header .navbarSm .menu .search form button {
   transform: translateY(-50%);
   right: -24px;
 }
-#ourProducts .productNav li:last-child a::before {
+#ourProducts .productNav li:last-child button::before {
   display: none;
 }
 .product {
