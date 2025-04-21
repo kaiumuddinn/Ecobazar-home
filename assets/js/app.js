@@ -6,6 +6,9 @@ let categoryContent = document.querySelector("#categoryContent");
 let allProduct = document.querySelector(".all");
 let vegetable = document.querySelector(".vegetable");
 let fruit = document.querySelector(".fruit");
+let popup = document.querySelector('.popup')
+let overlay = document.querySelector('.overlay')
+let closeBtn = document.querySelector('.crossBtn')
 
 menuTab.addEventListener("click", () => {
   menuTab.classList.add("active");
@@ -21,6 +24,26 @@ categoryTab.addEventListener("click", () => {
   menuContent.style.display = "none";
 });
 // MOBILE NAVBAR END
+
+
+// SUBSCRIPTION WINDOW POPUP
+setTimeout(() => {
+  popup.style.display = "block";
+  overlay.style.display = "block";
+  setTimeout(() =>{popup.style.opacity = 1;},10);
+}, 4000);
+
+function closePopup (){
+  popup.style.opacity = 0;
+
+  setTimeout(() => {
+    popup.style.display = "none";
+    overlay.style.display = "none";
+  }, 400);
+}
+
+closeBtn.addEventListener("click", closePopup);
+overlay.addEventListener("click", closePopup);
 
 // BANNER SLIDER
 $( function () {

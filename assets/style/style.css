@@ -75,6 +75,100 @@ body {
   background-color: var(--branding-success);
   color: white;
 }
+/* POPUP */
+.popup {
+  background: var(--gray-scale-white);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 872px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.12);
+  transition: opacity 0.4s ease;
+  z-index: 100;
+  display: none;
+  opacity: 0;
+}
+.popup .content .crossBtn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  cursor: pointer;
+  color: var(--gray-scale-gray-–-900);
+  font-size: 20px;
+}
+.popup .content {
+  padding: 50px 40px;
+}
+.popup .content h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+}
+.popup .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-400);
+  margin: 12px 0 24px 0;
+}
+.popup .content p span {
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--branding-warning);
+}
+.popup .content form {
+  position: relative;
+  margin-bottom: 50px;
+}
+.popup .content form input {
+  padding: 14px 60px 14px 24px;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid var(--gray-scale-gray-–-100);
+  border-radius: 46px;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+.popup .content form button {
+  background-color: var(--branding-success);
+  padding: 14px 38px;
+  border-radius: 46px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--gray-scale-white);
+}
+.popup .content label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+}
+/* POPUP END */
 /* COMMOON CSS END */
 
 /* HEADER START */
