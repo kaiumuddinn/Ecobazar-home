@@ -23,7 +23,7 @@ categoryTab.addEventListener("click", () => {
 // MOBILE NAVBAR END
 
 // BANNER SLIDER
-$(document).ready(function () {
+$( function () {
   $(".bannerSlider").slick({
     autoplay: true,
     prevArrow: "#banner .leftArrow",
