@@ -1190,3 +1190,251 @@ footer .lastPart p {
   color: var(--gray-scale-gray-–-500);
 }
 /* FOOTER END */
+
+/* SHOP-1 PAGE START */
+.shopNav {
+  border-top: 1px solid #e5e5e5;
+  background: var(--gray-scale-white);
+}
+/* SHOP BANNER */
+#shopBanner {
+  background-image: url(../images/shop1Banner.png);
+  background-repeat: no-repeat;
+  padding: 48px 0;
+  background-size: cover;
+}
+#shopBanner ul li {
+  display: inline-block;
+}
+#shopBanner ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-400);
+}
+#shopBanner ul li span {
+  color: var(--gray-scale-gray-–-400);
+}
+#shopBanner ul li a.active {
+  color: var(--branding-success);
+}
+/* SHOP BANNER END */
+
+/* HERO SECTION */
+#heroSection {
+  background-color: var(--gray-scale-gray-–-100);
+  padding-top: 32px;
+  padding-bottom: 80px;
+}
+#heroSection .topRow {
+  margin-bottom: 34px;
+}
+#heroSection .topRow button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+  background-color: var(--branding-success);
+  border-radius: 43px;
+  padding: 14px 32px;
+  border: none;
+  outline: none;
+}
+#heroSection .topRow button span {
+  font-size: 20px;
+}
+#heroSection .topRow label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+#heroSection .topRow label select {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-700);
+  border: none;
+  outline: none;
+}
+#heroSection .topRow .result {
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+#heroSection .topRow .result span {
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+}
+#heroSection .accordionPart .accordionHeading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#heroSection .accordionPart .accordion-button,
+#heroSection .accordionPart .accordion-body {
+  background-color: var(--gray-scale-gray-–-100);
+}
+#heroSection .accordionPart .accordionBodyCategory ul li {
+  padding: 10px 0;
+}
+.accordionBodyCategory ul li label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+  display: inline-block;
+}
+.accordionBodyCategory ul li label span {
+  color: var(--gray-scale-gray-–-500);
+}
+.accordionBodyCategory ul li label input {
+  accent-color: var(--branding-success);
+  border: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease;
+}
+.accordionBodyCategory ul li label input:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 2px solid var(--branding-success);
+  border-radius: 50%;
+}
+.accordionBodyCategory ul li label input:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  background-color: var(--branding-success);
+  border-radius: 50%;
+}
+.accordionBodyRating ul li {
+  padding: 10px 0;
+}
+.accordionBodyRating ul li .starSolid {
+  color: var(--branding-warning);
+}
+.accordionBodyRating ul li .starRegular {
+  color: var(--gray-scale-gray-–-200);
+}
+.accordionBodyRating ul li label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+.accordionBodyRating ul li input {
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid var(--gray-scale-gray-–-200);
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  background: var(--gray-scale-white);
+}
+.accordionBodyRating ul li input:checked {
+  background-color: var(--branding-success);
+}
+.accordionBodyRating ul li input:checked::after {
+  content: "✔";
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+.accordionBodyTag {
+  padding: 26px 0;
+}
+.accordionBodyTag span {
+  display: inline-block;
+  background-color: var(--gray-scale-white);
+  padding: 6px 16px;
+  margin: 4px 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+  border-radius: 30px;
+}
+#heroSection .sale .productCard {
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-–-100);
+  border-radius: 6px;
+  transition: 0.2s ease-out;
+}
+#heroSection .sale .productCard:hover {
+  box-shadow: 0 0 12px 0 rgba(32, 181, 38, 0.32);
+  border: 1px solid var(--branding-success);
+}
+#heroSection .sale .productCard .productCnt {
+  padding: 24px 0;
+}
+#heroSection .sale .productCard .productCnt p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-700);
+}
+#heroSection .sale .productCard .productCnt h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+  margin: 3px 0;
+}
+#heroSection .sale .productCard .productCnt h5 span {
+  text-decoration: line-through;
+  color: var(--gray-scale-gray-–-400);
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--gray-scale-white);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-scale-gray-–-600);
+  margin: 0 -2px;
+}
+.pagination ul li a.active{
+  background-color: var(--branding-success);
+  color: var(--gray-scale-white);
+}
+.pagination ul li .arrowLeft{
+  margin-right: 12px;
+  color: var(--gray-scale-gray-–-300);
+}
+.pagination ul li .arrowRight{
+  margin-left: 12px;
+  color: var(--gray-scale-gray-–-900);
+}
+/* HERO SECTION END */
+/* SHOP-1 PAGE START END*/

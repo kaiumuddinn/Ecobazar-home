@@ -27,6 +27,12 @@
   #clientFeedback {
     padding: 50px 0;
   }
+  #shopBanner {
+    background-position: right;
+}
+#heroSection .topRow button {
+  font-size: 12px;
+  padding: 8px 20px;
 }
 
 @media (max-width: 575px) {
@@ -139,6 +145,12 @@
     right: 10px;
     font-size: 15px;
   }
+  #heroSection .topRow label {
+    font-size: 12px;
+}
+#heroSection .topRow label select {
+  font-size: 10px;
+}
 }
 @media (min-width: 576px) and (max-width: 767px) {
   #ourProducts .productNav li a {

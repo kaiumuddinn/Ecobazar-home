@@ -45,6 +45,7 @@ function closePopup (){
 closeBtn.addEventListener("click", closePopup);
 overlay.addEventListener("click", closePopup);
 
+
 // BANNER SLIDER
 $( function () {
   $(".bannerSlider").slick({
