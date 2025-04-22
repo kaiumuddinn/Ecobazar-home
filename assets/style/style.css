@@ -1424,17 +1424,159 @@ footer .lastPart p {
   color: var(--gray-scale-gray-–-600);
   margin: 0 -2px;
 }
-.pagination ul li a.active{
+.pagination ul li a.active {
   background-color: var(--branding-success);
   color: var(--gray-scale-white);
 }
-.pagination ul li .arrowLeft{
+.pagination ul li .arrowLeft {
   margin-right: 12px;
   color: var(--gray-scale-gray-–-300);
+  border: 1px solid var(--gray-scale-gray-–-100);
 }
-.pagination ul li .arrowRight{
+.pagination ul li .arrowRight {
   margin-left: 12px;
   color: var(--gray-scale-gray-–-900);
+  border: 1px solid var(--gray-scale-gray-–-100);
 }
 /* HERO SECTION END */
-/* SHOP-1 PAGE START END*/
+/* SHOP-1 PAGE END*/
+
+/* SHOP-2 PAGE */
+.breadcumb span,
+.breadcumb span a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+.breadcumb .active {
+  color: var(--branding-success);
+}
+#shopTwoBanner .container {
+  background-image: url(../images/shop2banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#shopTwoBanner .content {
+  padding: 68px 60px;
+}
+#shopTwoBanner .content h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray-scale-white);
+  margin-bottom: 12px;
+}
+#shopTwoBanner .content h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+}
+#shopTwoBanner .content a {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: justify;
+  color: var(--gray-scale-white);
+  border-radius: 43px;
+  padding: 14px 32px;
+  display: inline-block;
+  background: var(--branding-success);
+}
+#shopTwoBanner .content ul {
+  margin: 20px 0 32px 0;
+}
+#shopTwoBanner .content ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 11px;
+}
+#shopTwoBanner .content ul li span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--branding-success);
+  position: relative;
+}
+#shopTwoBanner .content ul li span::after {
+  content: ":";
+  position: absolute;
+  top: 0;
+  right: -18px;
+  color: var(--gray-scale-white);
+  opacity: 0.5;
+}
+#shopTwoBanner .content ul li:last-child span::after {
+  display: none;
+}
+#shopTwoBanner .content ul li p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray-scale-white);
+  opacity: 0.5;
+  margin-top: 4px;
+}
+
+/* SORTING */
+.category {
+  position: relative;
+}
+.category select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 10px 40px 10px 16px; /* Right padding for icon */
+  border: 1px solid var(--gray-scale-gray-–-100);
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-700);
+}
+.category select:focus {
+  outline: none;
+}
+.category span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* so it doesn’t block clicking the select */
+  color: var(--gray-scale-gray-–-700);
+}
+/* SORTING END */
+#activeFilters {
+  box-shadow: 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+  background: var(--gray-scale-white);
+  margin-bottom: 32px;
+}
+#activeFilters p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+#activeFilters p span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#activeFilters p button {
+  background-color: transparent;
+  border: none;
+  color: var(--gray-scale-gray-–-500);
+}
+/* SHOP-2 PAGE END */

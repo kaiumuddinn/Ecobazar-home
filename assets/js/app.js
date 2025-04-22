@@ -144,5 +144,10 @@ $( function () {
     selector: ".playBtn",
     spinner: "flow",
   });
+
+  // SHOP PAGE 2 COUNTDOWN
+  $('.countdown').countdown('2025/05/26', function(event) {
+    $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+  });
 });
 // BANNER SLIDER END
