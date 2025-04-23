@@ -31,7 +31,7 @@ setTimeout(() => {
   popup.style.display = "block";
   overlay.style.display = "block";
   setTimeout(() =>{popup.style.opacity = 1;},10);
-}, 4000);
+}, 5000);
 
 function closePopup (){
   popup.style.opacity = 0;
@@ -149,5 +149,9 @@ $( function () {
   $('.countdown').countdown('2025/05/26', function(event) {
     $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
   });
+
+  // PRODUCT DETAILS SLIDER
+  $('.mainSlider').slick();
+  
 });
-// BANNER SLIDER END
+
