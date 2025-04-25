@@ -149,9 +149,6 @@ $( function () {
   $('.countdown').countdown('2025/05/26', function(event) {
     $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
   });
-
-  // PRODUCT DETAILS SLIDER
-  $('.mainSlider').slick();
   
 });
 

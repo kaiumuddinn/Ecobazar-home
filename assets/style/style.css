@@ -1581,9 +1581,246 @@ footer .lastPart p {
 }
 /* SHOP-2 PAGE END */
 
-
 /* PRODUCT DETAILS PAGE START */
 /* PRODUCT DETAILS */
-
+#productDetails {
+  max-height: 558px;
+}
+#productDetails .image {
+  height: 100%;
+}
+#productDetails .image .mainSlider {
+  height: 80%;
+}
+.mainSlider .slide {
+  object-fit: contain;
+}
+#productDetails .content h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  gap: 8px;
+}
+#productDetails .content h2 span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--branding-success-dark);
+  display: inline-block;
+  padding: 4px 8px;
+  background: rgba(32, 181, 38, 0.2);
+  border-radius: 4px;
+}
+#productDetails .content .review {
+  margin: 12px 0 20px 0;
+}
+#productDetails .content .review > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+#productDetails .content .review .bold {
+  font-weight: 500;
+  color: var(--gray-scale-gray-–-800);
+  position: relative;
+}
+#productDetails .content .review .bold::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--gray-scale-gray-–-300);
+}
+#productDetails .content h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--branding-success-dark);
+}
+#productDetails .content h4 span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: line-through;
+  color: var(--gray-scale-gray-–-300);
+}
+#productDetails .content .offer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--branding-error);
+  display: inline-block;
+  padding: 3px 10px;
+  background: rgba(234, 75, 72, 0.1);
+  border-radius: 30px;
+}
+#productDetails .content .solialLinks {
+  border-top: 1px solid var(--gray-scale-gray-–-100);
+}
+#productDetails .content .solialLinks span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#productDetails .content .solialLinks ul li {
+  display: inline-block;
+}
+#productDetails .content .solialLinks ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--gray-scale-white);
+  font-size: 18px;
+  color: var(--gray-scale-gray-–-700);
+  transition: 0.25s ease;
+}
+#productDetails .content .solialLinks ul li a:hover {
+  background-color: var(--branding-success);
+  color: white;
+}
+#productDetails .content > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+#productDetails .content > p .bold {
+  font-weight: 500;
+  color: var(--gray-scale-gray-–-900);
+}
+#productDetails .content > p .underline {
+  text-decoration: underline;
+  color: var(--gray-scale-gray-–-900);
+}
+#productDetails .content form {
+  padding: 20px 0;
+  box-shadow: 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+  background: var(--gray-scale-white);
+}
 /* PRODUCT DETAILS END */
 /* PRODUCT DETAILS PAGE END */
+
+/* WISHLIST */
+#wishlist {
+  padding: 40px 0 80px 0;
+}
+#wishlist h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 32px;
+}
+#wishlist .wishlistProduct {
+  border: 1px solid var(--gray-scale-gray-–-100);
+  border-radius: 8px;
+}
+#wishlist .wishlistProduct .name {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--gray-scale-gray-–-100);
+}
+#wishlist .wishlistProduct .name p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray-scale-gray-–-500);
+}
+#wishlist .wishlistProduct .item {
+  margin: 0 24px;
+  border-bottom: 1px solid var(--gray-scale-gray-–-100);
+}
+#wishlist .wishlistProduct .item.b0 {
+  border: none;
+}
+#wishlist .wishlistProduct .item .productName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#wishlist .wishlistProduct .item .price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#wishlist .wishlistProduct .item .price span {
+  font-weight: 400;
+  text-decoration: line-through;
+  color: var(--gray-scale-gray-–-400);
+}
+#wishlist .wishlistProduct .item .status span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--branding-success-dark);
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(32, 181, 38, 0.2);
+}
+#wishlist .wishlistProduct .item .status .stockOut{
+  background: rgba(234, 75, 72, 0.2);
+  color: var(--branding-error);
+}
+#wishlist .wishlistProduct .item .addBtn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+  display: inline-block;
+  padding: 14px 32px;
+  background: var(--branding-success);
+  border-radius: 43px;
+}
+#wishlist .wishlistProduct .item .addBtn.disable{
+  background: var(--gray-scale-gray-–-50);
+  color: var(--gray-scale-gray-–-300);
+  cursor: not-allowed;
+}
+#wishlist .wishlistProduct .item .crossBtn {
+  display: inline-block;
+  color: var(--gray-scale-gray-–-600);
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid var(--gray-scale-gray-–-200);
+}
+#wishlist .wishlistProduct .socialIcons{
+  border-top: 1px solid var(--gray-scale-gray-–-100);
+}
+#wishlist .wishlistProduct .socialIcons ul li{
+  display: inline-block;
+}
+#wishlist .wishlistProduct .socialIcons ul li a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--gray-scale-gray-–-700);
+  margin: 0 2px;
+  font-size: 18px;
+  transition: 0.25s ease;
+}
+#wishlist .wishlistProduct .socialIcons ul li a:hover{
+  background-color: var(--branding-success);
+  color: white;
+}
+/* WISHLIST END */
