@@ -29,12 +29,12 @@
   }
   #shopBanner {
     background-position: right;
+  }
+  #heroSection .topRow button {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
 }
-#heroSection .topRow button {
-  font-size: 12px;
-  padding: 8px 20px;
-}
-
 @media (max-width: 575px) {
   #ourProducts .productNav li {
     margin: 0 14px;
@@ -147,10 +147,17 @@
   }
   #heroSection .topRow label {
     font-size: 12px;
-}
-#heroSection .topRow label select {
-  font-size: 10px;
-}
+  }
+  #heroSection .topRow label select {
+    font-size: 10px;
+  }
+  .cartProduct .buttons a {
+    padding: 12px 16px;
+    font-size: 12px;
+  }
+  #shoppingCart .coupon form button {
+    font-size: 10px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   #ourProducts .productNav li a {

@@ -397,152 +397,154 @@
       <!-- CHECKOUT -->
       <section id="checkout">
         <div class="container">
-          <div class="row gx-4">
-            <div class="col-lg-8">
-              <div class="billingInfo">
-                <h2>Billing Information</h2>
-                <div class="row">
-                  <div class="col-lg-4">
-                    <p class="label">First name</p>
-                    <input class="input" type="text" placeholder="Your first name">
-                  </div>
-                  <div class="col-lg-4">
-                    <p class="label">Last name</p>
-                    <input class="input" type="text" placeholder="Your last name">
-                  </div>
-                  <div class="col-lg-4">
-                    <p class="label">Company Name <span>(optional)</span></p>
-                    <input class="input" type="text" placeholder="Company Name">
-                  </div>
-                </div>
-
-                <p class="label">Street Address</p>
-                <input type="text" class="input" placeholder="Street Address">
-
-                <div class="row">
-                  <div class="col-lg-4">
-                    <p class="label">Country / Region</p>
-                    <div class="selection">
-                    <select>
-                        <option value="Bangladesh">Select</option>
-                        <option value="Bangladesh">Bangladesh</option>
-                        <option value="India">India</option>
-                        <option value="Pakistan">Pakistan</option>
-                      </select>
-                      <span><i class="fa-solid fa-chevron-down"></i></span>
-                    </select>
+          <form action="">
+            <div class="row gx-4">
+              <div class="col-lg-8">
+                <div class="billingInfo">
+                  <h2>Billing Information</h2>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <p class="label">First name</p>
+                      <input class="input" type="text" placeholder="Your first name">
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="label">Last name</p>
+                      <input class="input" type="text" placeholder="Your last name">
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="label">Company Name <span>(optional)</span></p>
+                      <input class="input" type="text" placeholder="Company Name">
                     </div>
                   </div>
-                  <div class="col-lg-4">
-                    <p class="label">States</p>
-                    <div class="selection">
-                    <select>
-                      <option>Select</option>
-                      <option>Dhaka</option>
-                      <option>Chattogram</option>
-                      <option>Sylet</option>
+  
+                  <p class="label">Street Address</p>
+                  <input type="text" class="input" placeholder="Street Address">
+  
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <p class="label">Country / Region</p>
+                      <div class="selection">
+                      <select>
+                          <option value="Bangladesh">Select</option>
+                          <option value="Bangladesh">Bangladesh</option>
+                          <option value="India">India</option>
+                          <option value="Pakistan">Pakistan</option>
+                        </select>
+                        <span><i class="fa-solid fa-chevron-down"></i></span>
                       </select>
-                      <span><i class="fa-solid fa-chevron-down"></i></span>
-                    </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="label">States</p>
+                      <div class="selection">
+                      <select>
+                        <option>Select</option>
+                        <option>Dhaka</option>
+                        <option>Chattogram</option>
+                        <option>Sylet</option>
+                        </select>
+                        <span><i class="fa-solid fa-chevron-down"></i></span>
+                      </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="label">Zip Code</p>
+                      <input type="text" class="input" placeholder="Zip Code">
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <p class="label">Email</p>
+                      <input type="email" class="input" placeholder="Email Address">
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="label">Phone</p>
+                      <input type="number" class="input" placeholder="Phone number">
                     </div>
                   </div>
-                  <div class="col-lg-4">
-                    <p class="label">Zip Code</p>
-                    <input type="text" class="input" placeholder="Zip Code">
+  
+                  <label class="d-flex align-items-center">
+                    <input type="checkbox"> &nbsp;
+                    Ship to a different address
+                  </label>
+  
+                  <h2 class="scndHeading">Additional Info</h2>
+  
+                  <p class="label">Order Notes (Optional)</p>
+                  <textarea class="input mx-2" rows="3">Notes about your order, e.g. special notes for delivery</textarea>
+  
                 </div>
-
-                <div class="row">
-                  <div class="col-lg-6">
-                    <p class="label">Email</p>
-                    <input type="email" class="input" placeholder="Email Address">
+              </div>
+              <div class="col-4"></div>
+              
+            </div>
+  
+            <div class="col-lg-4">
+              <div class="orderSummery p-4">
+                <h3>Order Summery</h3>
+  
+                <div class="row align-items-center mt-2">
+                  <div class="col-10">
+                    <img class="img-fluid" src="./assets/images/orderSummery1.png" alt="">
+                    <span class="title">Green Capsicum <span>x5</span></span>
                   </div>
-                  <div class="col-lg-6">
-                    <p class="label">Phone</p>
-                    <input type="number" class="input" placeholder="Phone number">
+                  <div class="col-2">
+                    <span class="price">$70.00</span>
                   </div>
                 </div>
-
-                <label class="d-flex align-items-center">
-                  <input type="checkbox"> &nbsp;
-                  Ship to a different address
-                </label>
-
-                <h2 class="scndHeading">Additional Info</h2>
-
-                <p class="label">Order Notes (Optional)</p>
-                <textarea class="input mx-2" rows="3">Notes about your order, e.g. special notes for delivery</textarea>
-
+                <div class="row align-items-center mb-2">
+                  <div class="col-10">
+                    <img class="img-fluid" src="./assets/images/orderSummery2.png" alt="">
+                    <span class="title">Red Capsicum <span>x1</span></span>
+                  </div>
+                  <div class="col-2">
+                      <span class="price">$14.00</span>
+                  </div>
+                </div>
+  
+                <div class="row bdr">
+                  <div class="col-6"><p class="name">Subtotal:</p></div>
+                  <div class="col-6 pe-1"><p class="price text-end">$84.00</p></div>
+                </div>
+                <div class="row bdr">
+                  <div class="col-6"><p class="name">Shipping:</p></div>
+                  <div class="col-6 pe-1"><p class="price text-end">Free</p></div>
+                </div>
+                <div class="row bdr border-0">
+                  <div class="col-6"><p class="total">Total:</p></div>
+                  <div class="col-6 pe-1"><p class="totalPrice text-end">$84.00</p></div>
+                </div>
+  
+                <div class="payment my-4">
+                  <h3 class="mb-3">Payment Method</h3>
+                  <ul>
+                    <li>
+                      <label class="d-flex align-items-center gap-2">
+                        <input type="radio" name="paymentMethod">
+                        <span>Cash on Delivery</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="d-flex align-items-center gap-2">
+                        <input type="radio" name="paymentMethod">
+                        <span>Paypal</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="d-flex align-items-center gap-2">
+                        <input type="radio" name="paymentMethod">
+                        <span>Amazon Pay</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+  
+                <button type="submit">Place Order</button>
+  
               </div>
             </div>
-            <div class="col-4"></div>
-            
           </div>
-
-          <div class="col-lg-4">
-            <div class="orderSummery p-4">
-              <h3>Order Summery</h3>
-
-              <div class="row align-items-center mt-2">
-                <div class="col-10">
-                  <img class="img-fluid" src="./assets/images/orderSummery1.png" alt="">
-                  <span class="title">Green Capsicum <span>x5</span></span>
-                </div>
-                <div class="col-2">
-                  <span class="price">$70.00</span>
-                </div>
-              </div>
-              <div class="row align-items-center mb-2">
-                <div class="col-10">
-                  <img class="img-fluid" src="./assets/images/orderSummery2.png" alt="">
-                  <span class="title">Red Capsicum <span>x1</span></span>
-                </div>
-                <div class="col-2">
-                  <span class="price">$14.00</span>
-                </div>
-              </div>
-
-              <div class="row bdr">
-                <div class="col-6"><p class="name">Subtotal:</p></div>
-                <div class="col-6 pe-1"><p class="price text-end">$84.00</p></div>
-              </div>
-              <div class="row bdr">
-                <div class="col-6"><p class="name">Shipping:</p></div>
-                <div class="col-6 pe-1"><p class="price text-end">Free</p></div>
-              </div>
-              <div class="row bdr border-0">
-                <div class="col-6"><p class="total">Total:</p></div>
-                <div class="col-6 pe-1"><p class="totalPrice text-end">$84.00</p></div>
-              </div>
-
-              <div class="payment my-4">
-                <h3 class="mb-3">Payment Method</h3>
-                <ul>
-                  <li>
-                    <label class="d-flex align-items-center gap-2">
-                      <input type="radio" name="paymentMethod">
-                      <span>Cash on Delivery</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="d-flex align-items-center gap-2">
-                      <input type="radio" name="paymentMethod">
-                      <span>Paypal</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="d-flex align-items-center gap-2">
-                      <input type="radio" name="paymentMethod">
-                      <span>Amazon Pay</span>
-                    </label>
-                  </li>
-                </ul>
-              </div>
-
-              <button type="submit">Place Order</button>
-
-            </div>
-          </div>
-        </div>
+          </form>
       </section>
       <!-- CHECKOUT END -->
     </main>
