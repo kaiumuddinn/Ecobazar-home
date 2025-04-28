@@ -34,6 +34,9 @@
     font-size: 12px;
     padding: 8px 20px;
   }
+  #contact .rightPart {
+    padding: 20px;
+  }
 }
 @media (max-width: 575px) {
   #ourProducts .productNav li {
@@ -91,6 +94,16 @@
   .popup .content form button {
     padding: 14px 26px;
     font-size: 10px;
+  }
+  #first .content {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  #first .content h2 {
+    font-size: 40px;
+  }
+  #first .content p {
+    font-size: 16px;
   }
 }
 @media (max-width: 460px) {
@@ -208,6 +221,13 @@
     right: 10px;
     font-size: 18px;
   }
+  #first .content {
+    padding-right: 0;
+  }
+  #first .content h2 {
+    font-size: 48px;
+    margin-bottom: 26px;
+  }
 }
 @media (min-width: 767px) and (max-width: 991px) {
   #ourProducts {
@@ -228,5 +248,8 @@
     height: 70px;
     line-height: 70px;
     font-size: 20px;
+  }
+  #first .content {
+    padding-right: 0px;
   }
 }

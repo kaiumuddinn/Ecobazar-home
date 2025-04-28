@@ -2224,3 +2224,329 @@ footer .lastPart p {
   margin-top: 20px;
 }
 /* SHOPPING CART END */
+
+/* ABOUT US */
+#first {
+  padding: 80px 0;
+}
+#first .content {
+  padding-right: 60px;
+}
+#first .content h2 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 32px;
+}
+#first .content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+#second {
+  padding: 80px 0 90px 0;
+  background-image: url(../images/secondSectionBgImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#second .content h2 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 120%;
+  color: var(--green-gray-scale-900);
+  margin-bottom: 20px;
+}
+#second .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+  margin-bottom: 24px;
+}
+#second .content .Card h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#second .content .Card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+#third {
+  padding: 80px 0 0 0;
+}
+#third h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 24px;
+}
+#third p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+  margin-bottom: 20px;
+}
+#third li .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: #e5f7e6;
+  color: var(--branding-success-dark);
+  font-size: 13px;
+  margin-right: 8px;
+}
+#third li .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--gray-scale-gray-–-600);
+}
+#third a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+  display: inline-block;
+  padding: 16px 40px;
+  border-radius: 43px;
+  background: var(--branding-success);
+}
+
+#ourTeam {
+  padding: 70px 0 80px 0;
+}
+#ourTeam h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 12px;
+}
+#ourTeam > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--gray-scale-gray-–-600);
+}
+#ourTeam .teamSlider .slide {
+  background: var(--gray-scale-white);
+  transition: 0.2s ease-out;
+  padding: 0 12px;
+}
+#ourTeam .teamSlider .slide .text {
+  padding: 16px 20px;
+  border: 1px solid var(--gray-scale-gray-–-100);
+  border-radius: 0 0 10px 10px;
+}
+#ourTeam .teamSlider .slide .text h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#ourTeam .teamSlider .slide .text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+  margin-top: 4px;
+}
+#ourTeam .teamSlider .slide .img {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+#ourTeam .teamSlider .slide .img:hover .teamOverlay {
+  opacity: 1;
+  visibility: visible;
+  inset: 0;
+}
+#ourTeam .teamSlider .slide .img .teamOverlay {
+  position: absolute;
+  inset: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.teamSlider .slide .img .teamOverlay ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--gray-scale-white);
+  transition: 0.25s ease;
+  margin-right: 4px;
+  &:hover {
+    background-color: var(--branding-success);
+  }
+}
+#ourTeam .container {
+  position: relative;
+}
+#ourTeam .leftArrow {
+  position: absolute;
+  bottom: 32%;
+  left: -40px;
+}
+#ourTeam .rightArrow {
+  position: absolute;
+  bottom: 32%;
+  right: -40px;
+}
+/* Testimonial */
+#testimonial {
+  padding: 100px 0;
+  background: var(--gray-scale-gray-–-50);
+}
+#testimonial h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 50px;
+  position: relative;
+}
+#testimonial .singleSlide {
+  padding: 24px;
+  background: var(--gray-scale-white);
+  border-radius: 8px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.01);
+}
+#testimonial .singleSlide .para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-700);
+  margin: 16px 0;
+}
+#testimonial .singleSlide h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#testimonial .singleSlide .customer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-400);
+}
+#testimonial .slick-slide {
+  margin: 0 12px;
+}
+
+#testimonial .slick-track {
+  display: flex !important;
+}
+
+#testimonial .slick-slide:last-child {
+  margin-right: 0;
+}
+#testimonial h2 .leftArrow,
+#testimonial h2 .rightArrow {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+}
+#testimonial h2 .rightArrow {
+  right: 0;
+}
+#testimonial h2 .leftArrow {
+  right: 50px;
+}
+/* Testimonial End */
+/* ABOUT US END */
+
+/* CONTACT PAGE */
+#contact {
+  padding: 80px 0;
+}
+#contact .leftPart {
+  box-shadow: 0 0 56px 0 rgba(0, 38, 3, 0.08);
+  background: var(--gray-scale-white);
+  border-radius: 8px;
+  padding: 0px 20px;
+}
+#contact .leftPart .item {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--gray-scale-gray-–-100);
+  &:last-child {
+    border: none;
+  }
+}
+#contact .leftPart .item .icon {
+  display: block;
+  font-size: 45px;
+  color: var(--branding-success-dark);
+}
+#contact .leftPart .item .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: var(--gray-scale-gray-–-800);
+}
+#contact .rightPart {
+  padding: 44px 50px 50px 50px;
+  box-shadow: 0 0 56px 0 rgba(0, 38, 3, 0.08);
+  background: var(--gray-scale-white);
+  border-radius: 8px;
+}
+#contact .rightPart h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+#contact .rightPart p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+  margin: 8px 0 24px 0;
+}
+#contact .rightPart form input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 14px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--gray-scale-gray-–-600);
+  border: 1px solid var(--gray-scale-gray-–-100);
+  border-radius: 6px;
+  outline: none;
+  transition: 0.25s ease;
+  &:focus {
+    border: 1px solid var(--branding-success);
+  }
+}
+#contact .rightPart form button {
+  display: inline-block;
+  border-radius: 43px;
+  padding: 16px 40px;
+  background: var(--branding-success);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+  margin-top: 16px;
+  border: none;
+  outline: none;
+}
+/* CONTACT PAGE END */
