@@ -27,23 +27,23 @@ categoryTab.addEventListener("click", () => {
 
 
 // SUBSCRIPTION WINDOW POPUP
-setTimeout(() => {
-  popup.style.display = "block";
-  overlay.style.display = "block";
-  setTimeout(() =>{popup.style.opacity = 1;},10);
-}, 5000);
+// setTimeout(() => {
+//   popup.style.display = "block";
+//   overlay.style.display = "block";
+//   setTimeout(() =>{popup.style.opacity = 1;},10);
+// }, 5000);
 
-function closePopup (){
-  popup.style.opacity = 0;
+// function closePopup (){
+//   popup.style.opacity = 0;
 
-  setTimeout(() => {
-    popup.style.display = "none";
-    overlay.style.display = "none";
-  }, 400);
-}
+//   setTimeout(() => {
+//     popup.style.display = "none";
+//     overlay.style.display = "none";
+//   }, 400);
+// }
 
-closeBtn.addEventListener("click", closePopup);
-overlay.addEventListener("click", closePopup);
+// closeBtn.addEventListener("click", closePopup);
+// overlay.addEventListener("click", closePopup);
 
 
 // BANNER SLIDER
